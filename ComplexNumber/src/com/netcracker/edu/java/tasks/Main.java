@@ -1,0 +1,32 @@
+package com.netcracker.edu.java.tasks;
+
+public class Main {
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        ComplexNumberImpl c1 = new ComplexNumberImpl();//(0, 8);
+//        System.out.println(c1.toString());
+        c1.set("4+4i");
+        System.out.print("Re:");
+        System.out.println(c1.getRe());
+        
+        System.out.print("Im:");
+        System.out.println(c1.getIm());
+        
+//        ComplexNumber c3 = new ComplexNumberImpl(1, -90);
+//        System.out.println(c1.getRe());
+//        System.out.println(c1.getIm());
+        
+//        ComplexNumber[] array = new ComplexNumberImpl[3];
+//        array[0] = new ComplexNumberImpl(160, 1);
+//        array[1] = new ComplexNumberImpl(3, 1);
+//        array[2] = new ComplexNumberImpl(6, 0);
+//        c1.sort(array);
+//        for (int i = 0; i < 3; i++) {
+//            System.out.println(array[i].getRe());
+//            System.out.println(array[i].getIm());
+//        }
+//        c1.add(c3);
+//        System.out.println(c1.getRe());
+//        System.out.println(c1.getIm());
+    }
+}
